@@ -1,0 +1,6 @@
+framework module Pods_INTBanner {
+  umbrella header "Pods-INTBanner-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012450AA2A779A5F009CD788 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450A92A779A5F009CD788 /* AppDelegate.m */; };
+		012450AD2A779A5F009CD788 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450AC2A779A5F009CD788 /* SceneDelegate.m */; };
+		012450B02A779A5F009CD788 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450AF2A779A5F009CD788 /* ViewController.m */; };
+		012450B32A779A5F009CD788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012450B12A779A5F009CD788 /* Main.storyboard */; };
+		012450B52A779A61009CD788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012450B42A779A61009CD788 /* Assets.xcassets */; };
+		012450B82A779A61009CD788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012450B62A779A61009CD788 /* LaunchScreen.storyboard */; };
+		012450BB2A779A61009CD788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450BA2A779A61009CD788 /* main.m */; };
+		012450CF2A779AC1009CD788 /* WMZBannerFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450C22A779AC1009CD788 /* WMZBannerFlowLayout.m */; };
+		012450D02A779AC1009CD788 /* WMZBannerParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450C52A779AC1009CD788 /* WMZBannerParam.m */; };
+		012450D12A779AC1009CD788 /* WMZBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450C72A779AC1009CD788 /* WMZBannerView.m */; };
+		012450D22A779AC1009CD788 /* WMZBannerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450C82A779AC1009CD788 /* WMZBannerControl.m */; };
+		012450D32A779AC1009CD788 /* WMZBannerFadeLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450CA2A779AC1009CD788 /* WMZBannerFadeLayout.m */; };
+		012450D42A779AC1009CD788 /* WMZBannerOverLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450CE2A779AC1009CD788 /* WMZBannerOverLayout.m */; };
+		95C813F4BBC00CDB9DBBD50D /* Pods_INTBanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF9F6A1AB05DAC846B142C4 /* Pods_INTBanner.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		012450A52A779A5F009CD788 /* INTBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = INTBanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		012450A82A779A5F009CD788 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		012450A92A779A5F009CD788 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		012450AB2A779A5F009CD788 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		012450AC2A779A5F009CD788 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		012450AE2A779A5F009CD788 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		012450AF2A779A5F009CD788 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		012450B22A779A5F009CD788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		012450B42A779A61009CD788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		012450B72A779A61009CD788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		012450B92A779A61009CD788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012450BA2A779A61009CD788 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		012450C22A779AC1009CD788 /* WMZBannerFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMZBannerFlowLayout.m; sourceTree = "<group>"; };
+		012450C32A779AC1009CD788 /* WMZBannerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMZBannerControl.h; sourceTree = "<group>"; };
+		012450C42A779AC1009CD788 /* WMZBannerFadeLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMZBannerFadeLayout.h; sourceTree = "<group>"; };
+		012450C52A779AC1009CD788 /* WMZBannerParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMZBannerParam.m; sourceTree = "<group>"; };
+		012450C62A779AC1009CD788 /* WMZBannerOverLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMZBannerOverLayout.h; sourceTree = "<group>"; };
+		012450C72A779AC1009CD788 /* WMZBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMZBannerView.m; sourceTree = "<group>"; };
+		012450C82A779AC1009CD788 /* WMZBannerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMZBannerControl.m; sourceTree = "<group>"; };
+		012450C92A779AC1009CD788 /* WMZBannerFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMZBannerFlowLayout.h; sourceTree = "<group>"; };
+		012450CA2A779AC1009CD788 /* WMZBannerFadeLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMZBannerFadeLayout.m; sourceTree = "<group>"; };
+		012450CB2A779AC1009CD788 /* WMZBannerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMZBannerConfig.h; sourceTree = "<group>"; };
+		012450CC2A779AC1009CD788 /* WMZBannerParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMZBannerParam.h; sourceTree = "<group>"; };
+		012450CD2A779AC1009CD788 /* WMZBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMZBannerView.h; sourceTree = "<group>"; };
+		012450CE2A779AC1009CD788 /* WMZBannerOverLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMZBannerOverLayout.m; sourceTree = "<group>"; };
+		0C090CD07C4D5765B4B6406E /* Pods-INTBanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INTBanner.debug.xcconfig"; path = "Target Support Files/Pods-INTBanner/Pods-INTBanner.debug.xcconfig"; sourceTree = "<group>"; };
+		6DF9F6A1AB05DAC846B142C4 /* Pods_INTBanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_INTBanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE838EB80AEF2EE68255B43D /* Pods-INTBanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INTBanner.release.xcconfig"; path = "Target Support Files/Pods-INTBanner/Pods-INTBanner.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		012450A22A779A5F009CD788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C813F4BBC00CDB9DBBD50D /* Pods_INTBanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0124509C2A779A5F009CD788 = {
+			isa = PBXGroup;
+			children = (
+				012450A72A779A5F009CD788 /* INTBanner */,
+				012450A62A779A5F009CD788 /* Products */,
+				18523212A39912617A54FED8 /* Pods */,
+				326D57A17780C4E0619C3237 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		012450A62A779A5F009CD788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				012450A52A779A5F009CD788 /* INTBanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		012450A72A779A5F009CD788 /* INTBanner */ = {
+			isa = PBXGroup;
+			children = (
+				012450C12A779AC1009CD788 /* Classes */,
+				012450A82A779A5F009CD788 /* AppDelegate.h */,
+				012450A92A779A5F009CD788 /* AppDelegate.m */,
+				012450AB2A779A5F009CD788 /* SceneDelegate.h */,
+				012450AC2A779A5F009CD788 /* SceneDelegate.m */,
+				012450AE2A779A5F009CD788 /* ViewController.h */,
+				012450AF2A779A5F009CD788 /* ViewController.m */,
+				012450B12A779A5F009CD788 /* Main.storyboard */,
+				012450B42A779A61009CD788 /* Assets.xcassets */,
+				012450B62A779A61009CD788 /* LaunchScreen.storyboard */,
+				012450B92A779A61009CD788 /* Info.plist */,
+				012450BA2A779A61009CD788 /* main.m */,
+			);
+			path = INTBanner;
+			sourceTree = "<group>";
+		};
+		012450C12A779AC1009CD788 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				012450CB2A779AC1009CD788 /* WMZBannerConfig.h */,
+				012450C32A779AC1009CD788 /* WMZBannerControl.h */,
+				012450C82A779AC1009CD788 /* WMZBannerControl.m */,
+				012450C42A779AC1009CD788 /* WMZBannerFadeLayout.h */,
+				012450CA2A779AC1009CD788 /* WMZBannerFadeLayout.m */,
+				012450C92A779AC1009CD788 /* WMZBannerFlowLayout.h */,
+				012450C22A779AC1009CD788 /* WMZBannerFlowLayout.m */,
+				012450C62A779AC1009CD788 /* WMZBannerOverLayout.h */,
+				012450CE2A779AC1009CD788 /* WMZBannerOverLayout.m */,
+				012450CC2A779AC1009CD788 /* WMZBannerParam.h */,
+				012450C52A779AC1009CD788 /* WMZBannerParam.m */,
+				012450CD2A779AC1009CD788 /* WMZBannerView.h */,
+				012450C72A779AC1009CD788 /* WMZBannerView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		18523212A39912617A54FED8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C090CD07C4D5765B4B6406E /* Pods-INTBanner.debug.xcconfig */,
+				CE838EB80AEF2EE68255B43D /* Pods-INTBanner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		326D57A17780C4E0619C3237 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DF9F6A1AB05DAC846B142C4 /* Pods_INTBanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		012450A42A779A5F009CD788 /* INTBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 012450BE2A779A61009CD788 /* Build configuration list for PBXNativeTarget "INTBanner" */;
+			buildPhases = (
+				EF8ACA235380DF894500B2CC /* [CP] Check Pods Manifest.lock */,
+				012450A12A779A5F009CD788 /* Sources */,
+				012450A22A779A5F009CD788 /* Frameworks */,
+				012450A32A779A5F009CD788 /* Resources */,
+				0947DDA32220E685518C5B87 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = INTBanner;
+			productName = INTBanner;
+			productReference = 012450A52A779A5F009CD788 /* INTBanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0124509D2A779A5F009CD788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					012450A42A779A5F009CD788 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 012450A02A779A5F009CD788 /* Build configuration list for PBXProject "INTBanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0124509C2A779A5F009CD788;
+			productRefGroup = 012450A62A779A5F009CD788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				012450A42A779A5F009CD788 /* INTBanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		012450A32A779A5F009CD788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012450B82A779A61009CD788 /* LaunchScreen.storyboard in Resources */,
+				012450B52A779A61009CD788 /* Assets.xcassets in Resources */,
+				012450B32A779A5F009CD788 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0947DDA32220E685518C5B87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-INTBanner/Pods-INTBanner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-INTBanner/Pods-INTBanner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-INTBanner/Pods-INTBanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF8ACA235380DF894500B2CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-INTBanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		012450A12A779A5F009CD788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012450D32A779AC1009CD788 /* WMZBannerFadeLayout.m in Sources */,
+				012450B02A779A5F009CD788 /* ViewController.m in Sources */,
+				012450D42A779AC1009CD788 /* WMZBannerOverLayout.m in Sources */,
+				012450CF2A779AC1009CD788 /* WMZBannerFlowLayout.m in Sources */,
+				012450D22A779AC1009CD788 /* WMZBannerControl.m in Sources */,
+				012450D02A779AC1009CD788 /* WMZBannerParam.m in Sources */,
+				012450D12A779AC1009CD788 /* WMZBannerView.m in Sources */,
+				012450AA2A779A5F009CD788 /* AppDelegate.m in Sources */,
+				012450BB2A779A61009CD788 /* main.m in Sources */,
+				012450AD2A779A5F009CD788 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		012450B12A779A5F009CD788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				012450B22A779A5F009CD788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		012450B62A779A61009CD788 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				012450B72A779A61009CD788 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		012450BC2A779A61009CD788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		012450BD2A779A61009CD788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		012450BF2A779A61009CD788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C090CD07C4D5765B4B6406E /* Pods-INTBanner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = INTBanner/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.INTBanner.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		012450C02A779A61009CD788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE838EB80AEF2EE68255B43D /* Pods-INTBanner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = INTBanner/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.INTBanner.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		012450A02A779A5F009CD788 /* Build configuration list for PBXProject "INTBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012450BC2A779A61009CD788 /* Debug */,
+				012450BD2A779A61009CD788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		012450BE2A779A61009CD788 /* Build configuration list for PBXNativeTarget "INTBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012450BF2A779A61009CD788 /* Debug */,
+				012450C02A779A61009CD788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0124509D2A779A5F009CD788 /* Project object */;
+}
